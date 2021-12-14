@@ -1,0 +1,35 @@
+﻿<Window x:Class="AdresBeheerWPF.Straat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdresBeheerWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="Straat" Height="450" Width="800">
+    <Grid Background="LightBlue">
+        <StackPanel>
+            <materialDesign:Card Padding="32" Margin="16" Height="66" RenderTransformOrigin="0.501,0.736">
+                <TextBlock Style="{DynamicResource MaterialDesignHeadline6TextBlock}">Adresbeheer</TextBlock>
+            </materialDesign:Card>
+        </StackPanel>
+        <Label Content="Straat" FontFamily="Verdana" FontSize="40" HorizontalAlignment="Left" Margin="34,23,0,0" VerticalAlignment="Top" Height="55" Width="366"/>
+        <Label Content="Toevoegen" FontFamily="Verdana" FontSize="28" HorizontalAlignment="Left" Margin="34,104,0,0" VerticalAlignment="Top" Height="48" Width="260"/>
+        <Label Content="Verwijderen?" FontFamily="Verdana" FontSize="28" HorizontalAlignment="Left" Margin="308,104,0,0" VerticalAlignment="Top" Height="48" Width="260"/>
+        <Label Content="Bestaat straat?" FontFamily="Verdana" FontSize="28" HorizontalAlignment="Left" Margin="568,104,0,0" VerticalAlignment="Top" Height="48" Width="260"/>
+        <Button x:Name="btnToevoegenStraat" Content="Straat toevoegen" HorizontalAlignment="Left" Margin="34,320,0,0" VerticalAlignment="Top" Height="70" Width="177" RenderTransformOrigin="0.359,0.562" Click="StraatToevoegen_Click"/>
+        <Button x:Name="btnVerwijderStraat" Content="Straat verwijderen" HorizontalAlignment="Center" Margin="0,320,0,0" VerticalAlignment="Top" Height="70" Width="157" RenderTransformOrigin="0.359,0.562" Click="StraatVerwijderen_Click"/>
+         <Button x:Name="btnBestaatStraat" Content="Bestaat de straat?" HorizontalAlignment="Left" Margin="591,320,0,0" VerticalAlignment="Top" Height="70" Width="149" RenderTransformOrigin="0.359,0.562" Click="BestaatStraat_Click"/>
+        <TextBox x:Name="textBox" Text="TextBox" TextWrapping="Wrap" Margin="34,240,589,154"/>
+        <TextBox x:Name="textBoxTwo" Text="TextBox" TextWrapping="Wrap" Margin="322,240,334,154"/>
+        <TextBox x:Name="textBoxThree" Text="TextBox" TextWrapping="Wrap" Margin="591,240,32,154"/>
+        <Button x:Name="btnGaTerugNaarHome" Content="Ga naar home" HorizontalAlignment="Left" Margin="640,15,0,0" VerticalAlignment="Top" Height="70" Width="150" Click="btnHomeAdres_Click"/>
+    </Grid>
+</Window>

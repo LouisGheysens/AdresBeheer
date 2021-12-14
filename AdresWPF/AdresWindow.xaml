@@ -1,0 +1,59 @@
+﻿<Window x:Class="AdresWPF.AdresWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdresWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="Adres" Height="450" Width="796">
+    <Grid Background="LightBlue">
+        <StackPanel>
+            <materialDesign:Card Padding="32" Margin="16" Height="66" RenderTransformOrigin="0.501,0.736">
+                <TextBlock Style="{DynamicResource MaterialDesignHeadline6TextBlock}">Adresbeheer</TextBlock>
+            </materialDesign:Card>
+        </StackPanel>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Content="Adres" FontFamily="Verdana" FontSize="40" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Height="55" Width="302"/>
+            <Button x:Name="AdressenBestaan" Content="Bestaat adres?" HorizontalAlignment="Left" Margin="619,227,0,0" VerticalAlignment="Top" Height="39" Width="165" Click="BestaatAdres_Click"/>
+            <Button x:Name="Adressenverwijderen" Content="Verwijder adres" HorizontalAlignment="Left" Margin="616,168,0,0" VerticalAlignment="Top" Height="38" Width="167" Click="VerwijderAdres_Click"/>
+            <Button x:Name="AdressenToevoegen" Content="Voeg adres toe" HorizontalAlignment="Left" Margin="614,97,0,0" VerticalAlignment="Top" Height="40" Width="167" Click="VoegAdresToe_Click"/>
+            <Button x:Name="GaNaarHome" Content="Keer terug naar main" HorizontalAlignment="Left" Margin="608,13,0,0" VerticalAlignment="Top" Height="69" Width="182" Click="KeerTerugNaarMain_Click"/>
+            <Button x:Name="AdressenUpdaten" Content="Update adres" HorizontalAlignment="Left" Margin="618,294,0,0" VerticalAlignment="Top" Height="43" Width="166" Click="UpdateAdres_Click"/>
+            <Label x:Name="labelID" Content="ID" Margin="20,102,696,297"/>
+            <Label x:Name="labelStraatID" Content="Straatid" Margin="20,137,696,262"/>
+            <Label x:Name="labelHuisnummer" Content="Huisnummer" Margin="20,172,696,227"/>
+            <Label x:Name="labelBusnummer" Content="Busnummer" Margin="20,212,696,187"/>
+            <Label x:Name="labelAppnummer" Content="Appnummer" Margin="20,254,696,145"/>
+            <Label x:Name="labelHuisnummerlabel" Content="Huisnummerlabel" Margin="20,294,673,104"/>
+            <Label x:Name="labelPostcode" Content="Postcode" Margin="20,339,696,60"/>
+            <Label x:Name="labelAdresLocatieID" Content="LocatieID" Margin="20,386,696,13"/>
+            <TextBox x:Name="textBoxID" TextWrapping="Wrap" Width="120" Margin="351,90,329,314"/>
+            <TextBox x:Name="textBoxStraatID"  TextWrapping="Wrap" Width="120" Margin="351,122,329,282"/>
+            <TextBox x:Name="textBoxLocatieHuisnummer" TextWrapping="Wrap" Width="120" Margin="351,160,329,244"/>
+            <TextBox x:Name="textBoxBusnummer"  TextWrapping="Wrap" Width="120" Margin="351,200,329,204"/>
+            <TextBox x:Name="textBoxAppnummer"  TextWrapping="Wrap" Width="120" Margin="351,242,329,162"/>
+            <TextBox x:Name="textBoxLocatieHuisnummerlabel"  TextWrapping="Wrap" Width="120" Margin="351,283,329,122"/>
+            <TextBox x:Name="textBoxPostcode" TextWrapping="Wrap" Width="120" Margin="351,327,329,77"/>
+            <TextBox x:Name="textBoxLocatieID" TextWrapping="Wrap" Width="120" Margin="351,374,329,27"/>
+        </Grid>
+    </Grid>
+</Window>

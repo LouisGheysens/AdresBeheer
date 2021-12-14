@@ -1,0 +1,36 @@
+﻿<Window x:Class="AdresWPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdresWPF"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="600">
+    <Grid>
+        <TextBlock Height="44" HorizontalAlignment="Left" Margin="707,32,0,0" Name="LoginHeading" Text="Login" VerticalAlignment="Top" FontSize="17" FontStretch="ExtraCondensed" Width="67"/>
+        <TextBlock Height="87" HorizontalAlignment="Left" Margin="15,10,0,0" x:Name="textBlockHeading" VerticalAlignment="Top" FontSize="75" FontStyle="Italic" Padding="5" Width="552"><!--line break--><!--end textblock as a hyperlink--><Run Language="nl-be" Text="Adresbeheer"/></TextBlock>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="233,163,0,0" Name="textBlock1" Text="Email" VerticalAlignment="Top" Width="67" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="228,207,0,0" Name="textBlock2" Text="Password" VerticalAlignment="Top" Width="77" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="320,154,0,0" Name="textBoxEmail" VerticalAlignment="Top" Width="247" />
+        <PasswordBox Height="24" HorizontalAlignment="Left" Margin="320,196,0,0" Name="passwordBox1" VerticalAlignment="Top" Width="247" />
+        <Button Content="Login" Height="37" HorizontalAlignment="Left" Margin="238,257,0,0" Name="button1" VerticalAlignment="Top" Width="78" Click="button1_Click" RenderTransformOrigin="0.5,0.5" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.989"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock Height="23" HorizontalAlignment="Left" x:Name ="errormessage" VerticalAlignment="Top" Width="247" Margin="275,225,0,0"  OpacityMask="Crimson" Foreground="#FFE5572C"  />
+        <Image x:Name="image" Margin="25,212,435,75">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/login.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="login_jpg" Margin="10,124,377,90" Stretch="Fill" Source="login.jpg"/>
+        <Button x:Name="button" Content="wachtwoord vergeten" HorizontalAlignment="Left" Margin="385,253,0,0" VerticalAlignment="Top" Height="33" Width="175" Click="button_Click_1"/>
+        <Button x:Name="buttonGoAccount" Content="Maak account" HorizontalAlignment="Left" Margin="385,332,0,0" VerticalAlignment="Top" Width="175" Click="buttonGoAccount_Click"/>
+    </Grid>
+</Window>

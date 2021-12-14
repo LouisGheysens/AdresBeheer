@@ -1,0 +1,49 @@
+﻿<Window x:Class="AdresWPF.StraatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdresWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="Straat" Height="450" Width="800">
+    <Grid Background="LightBlue">
+        <StackPanel>
+            <materialDesign:Card Padding="32" Margin="16" Height="66" RenderTransformOrigin="0.501,0.736">
+                <TextBlock Style="{DynamicResource MaterialDesignHeadline6TextBlock}">Adresbeheer</TextBlock>
+            </materialDesign:Card>
+        </StackPanel>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Content="Straat" FontFamily="Verdana" FontSize="40" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Height="55" Width="302"/>
+            <Button x:Name="StratenBestaan" Content="Bestaat straat?" HorizontalAlignment="Left" Margin="622,230,0,0" VerticalAlignment="Top" Height="42" Width="167" Click="BestaatStraat_Click"/>
+            <Button x:Name="Stratenverwijderen" Content="Verwijder straat" HorizontalAlignment="Left" Margin="622,162,0,0" VerticalAlignment="Top" Height="44" Width="166" Click="VerwijderStraat_Click"/>
+            <Button x:Name="StratenToevoegen" Content="Voeg straat toe" HorizontalAlignment="Left" Margin="622,96,0,0" VerticalAlignment="Top" Height="42" Width="166" Click="VoegStraatToe"/>
+            <Button x:Name="GaNaarHome" Content="Keer terug naar main" HorizontalAlignment="Left" Margin="608,13,0,0" VerticalAlignment="Top" Height="69" Width="182" Click="KeerTerugNaarMain_Click"/>
+            <Button x:Name="StratenUpdaten" Content="Update straat" HorizontalAlignment="Left" Margin="620,299,0,0" VerticalAlignment="Top" Height="42" Width="170" Click="UpdateStraat_Click"/>
+            <Label x:Name="labelID" Content="ID" FontWeight="Bold" Margin="28,117,688,282"/>
+            <Label x:Name="labelStraatnaam" Content="Straatnaam" FontWeight="Bold"  Margin="20,179,676,219"/>
+            <Label x:Name="labelNISCODE" Content="NISCODE" FontWeight="Bold"  Margin="20,246,676,153"/>
+            <TextBox x:Name="textBoxStraatWindowID" TextWrapping="Wrap" PreviewTextInput="textBoxStraatWindowID_PreviewTextInput"  Width="120" Margin="415,237,392,160"/>
+            <TextBox x:Name="textBoxStraatWindowNISCODE" TextWrapping="Wrap" Width="120" Margin="415,183,392,219" RenderTransformOrigin="0.436,-3.461"/>
+            <TextBox x:Name="textBoxStraatnaam" TextWrapping="Wrap" Width="120" Margin="415,113,392,287"/>
+        </Grid>
+    </Grid>
+</Window>

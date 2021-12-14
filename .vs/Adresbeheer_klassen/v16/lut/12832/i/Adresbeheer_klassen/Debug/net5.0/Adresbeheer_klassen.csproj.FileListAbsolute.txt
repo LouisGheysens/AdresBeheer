@@ -1,0 +1,10 @@
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\b\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.deps.json
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\b\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.dll
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\b\Adresbeheer_klassen\Debug\net5.0\ref\Adresbeheer_klassen.dll
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.csprojAssemblyReference.cache
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.AssemblyInfoInputs.cache
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.AssemblyInfo.cs
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.csproj.CopyComplete
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\Adresbeheer_klassen.dll
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\.vs\Adresbeheer_klassen\v16\lut\12832\i\Adresbeheer_klassen\Debug\net5.0\ref\Adresbeheer_klassen.dll

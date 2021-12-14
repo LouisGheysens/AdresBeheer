@@ -1,0 +1,5 @@
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\Adresbeheer_klassen\obj\Debug\net5.0\Adresbeheer.Domain.csprojAssemblyReference.cache
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\Adresbeheer_klassen\obj\Debug\net5.0\Adresbeheer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\Adresbeheer_klassen\obj\Debug\net5.0\Adresbeheer.Domain.AssemblyInfoInputs.cache
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\Adresbeheer_klassen\obj\Debug\net5.0\Adresbeheer.Domain.AssemblyInfo.cs
+C:\Users\Eigenaar\source\repos\Adresbeheer_klassen\Adresbeheer_klassen\obj\Debug\net5.0\Adresbeheer.Domain.csproj.CoreCompileInputs.cache

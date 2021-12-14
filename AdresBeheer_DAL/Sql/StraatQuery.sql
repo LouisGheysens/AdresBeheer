@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[straat](
+id int NOT NULL PRIMARY KEY,
+straatnaam nvarchar(100) NOT NULL,
+NISCODE int NOT NULL
+FOREIGN KEY (NISCODE) REFERENCES gemeente(NISCODE)
+);

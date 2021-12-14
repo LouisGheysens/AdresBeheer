@@ -1,0 +1,5 @@
+2021/12/14-14:30:35.042 1164 Log #3: 49 ops saved to Table #4 OK
+2021/12/14-14:30:35.044 1164 Archiving C:\Adresbeheer\AdresWPF\bin\Debug\net5.0-windows\AdresWPF.exe.WebView2\EBWebView\Default\Site Characteristics Database/000003.log: OK
+2021/12/14-14:30:35.045 1164 Table #4: 49 entries OK
+2021/12/14-14:30:35.048 1164 Archiving C:\Adresbeheer\AdresWPF\bin\Debug\net5.0-windows\AdresWPF.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
+2021/12/14-14:30:35.056 1164 **** Repaired leveldb C:\Adresbeheer\AdresWPF\bin\Debug\net5.0-windows\AdresWPF.exe.WebView2\EBWebView\Default\Site Characteristics Database; recovered 1 files; 1193 bytes. Some data may have been lost. ****
