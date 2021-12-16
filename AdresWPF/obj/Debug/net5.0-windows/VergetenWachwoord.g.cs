@@ -165,7 +165,7 @@ namespace AdresWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdresWPF;component/vergetenwachwoord.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdresWPF;V1.0.0.0;component/vergetenwachwoord.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\VergetenWachwoord.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

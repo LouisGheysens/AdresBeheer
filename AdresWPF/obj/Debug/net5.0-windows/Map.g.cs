@@ -78,7 +78,7 @@ namespace AdresWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdresWPF;component/map.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdresWPF;V1.0.0.0;component/map.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Map.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

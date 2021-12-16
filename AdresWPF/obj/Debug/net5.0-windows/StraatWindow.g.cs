@@ -144,7 +144,7 @@ namespace AdresWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdresWPF;component/straatwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdresWPF;V1.0.0.0;component/straatwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\StraatWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

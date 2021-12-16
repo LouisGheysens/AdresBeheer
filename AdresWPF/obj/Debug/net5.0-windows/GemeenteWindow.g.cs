@@ -144,7 +144,7 @@ namespace AdresWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdresWPF;component/gemeentewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdresWPF;V1.0.0.0;component/gemeentewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GemeenteWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -16,6 +16,8 @@ namespace Adresbeheer_klassen
         /// </summary>
         static readonly string path = @"C:\tmc\extract\CRAB_Adressenlijst_GML\GML\CrabAdr.gml";
 
+        private string pipen;
+
         /// <summary>
         /// Verschillende collections aanmaken
         /// </summary>
